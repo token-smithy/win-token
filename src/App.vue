@@ -45,16 +45,19 @@ body
             gap: 42px
             .box2
                 background-color: white
-                border: 1px solid lightgrey
+                // border: 1px solid lightgrey
                 position: absolute
-                width: 350px
-                height: 350px
+                // width: 350px
+                // height: 350px
                 text-align: center
-                border-radius: 350px
+                // border-radius: 350px
                 position: relative
                 img
-                    height: 350px
-                    width: 350px
+                    height: 250px
+                    width: 250px
+                    @media (min-width: 992px)
+                        height: 350px
+                        width: 350px
                 .text
                     font-size: 148px
                     position: absolute 
@@ -65,25 +68,35 @@ body
             .sentence
                 background-color: black
                 padding: 1rem
-                font-size: 1.5rem
+                font-size: 12px
                 line-height: 2rem
                 color: white
                 border-radius: 12px
                 font-weight: bold
+                @media (min-width: 992px)
+                    font-size: 24px
+                    
 .social-wrapper
     display: flex
-    gap: 24px
+    gap: 12px
+    @media (min-width: 992px)
+        gap: 24px
     .social-item
         border-radius: 12px
-        height: 100px
-        width: 100px
+        height: 50px
+        width: 50px
         border: 1px solid lightgrey
         background-color: white
         display: flex
         justify-content: center
         align-items: center
+        @media (min-width: 992px)
+            height: 100px
+            width: 100px
         svg
-            height: 50px
+            height: 25px
+            @media (min-width: 992px)
+                height: 50px
         &:hover, &:active, &:focus
             background-color: darken(white, 10%)
             cursor: pointer
