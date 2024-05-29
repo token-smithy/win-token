@@ -34,13 +34,13 @@
 body
     margin: 0
     #app
-        min-height: 100vh
+        min-height: 100svh
         width: 100%
         .landing-page
             display: flex
             justify-content: center
             flex-direction: column
-            height: 100vh
+            height: 100svh
             align-items: center
             gap: 42px
             .box2
