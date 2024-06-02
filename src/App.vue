@@ -7,16 +7,31 @@
                 <img src="./assets/images/logo.png" alt="">
 				<!-- <div class="text">pre</div> -->
 			</div>
-			<div class="sentence">"WIN. get extra win in your bags."
-
-
-</div>
+			<div class="sentence">"WIN. get extra win in your bags."</div>
+			<div class="mail">
+                <a href= "mailto: contact@win5minch.art"> contact@win5minch.art </a></div>
 			<div class="social-wrapper">
-                <button class="social-item" title="Telegram"><icon-telegram></icon-telegram></button>
-                <button class="social-item" title="Twitter-X"><icon-twitter></icon-twitter></button>
-                <button class="social-item" title="Discord"><icon-discord></icon-discord></button>
-                <button class="social-item" title="Dexscreener"><icon-chart></icon-chart></button>
-                <button class="social-item" title="Uniswap"><icon-uniswap></icon-uniswap></button>
+                <a href="https://t.me/+w0NfKNaz-Z8zMmZk" target="_blank">
+                <button class="social-item" title="Telegram">
+                   <icon-telegram></icon-telegram>
+                   </button>
+                </a>
+                <a href="https://x.com/win_on_base" target="_blank">
+                <button class="social-item" title="Twitter/X">
+                    <icon-twitter></icon-twitter>
+                   </button>
+                </a>
+                <a href="https://discord.gg/Mvg8qfev" target="_blank">
+                <button class="social-item" title="Discord">
+                    <icon-discord></icon-discord>
+                   </button>
+                </a>
+                <button class="social-item" title="Dexscreener">
+                    <icon-chart></icon-chart>
+                </button>
+                <button class="social-item" title="Uniswap">
+                    <icon-uniswap></icon-uniswap>
+                </button>
             </div>
 		</section>
 	</main>
@@ -75,6 +90,14 @@ body
                 font-weight: bold
                 @media (min-width: 992px)
                     font-size: 24px
+            .mail
+                font-size: 16px
+                a
+                    color: black
+                @media (min-width: 992px)
+                    font-size: 20px
+                &:hover, &:focus, &:active
+                    cursor: pointer
                     
 .social-wrapper
     display: flex
