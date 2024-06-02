@@ -2,6 +2,7 @@
   "name": "vue-crypto-landingpage",
   "version": "0.0.0",
   "private": true,
+  "homepage": "win5minch.art",
   "type": "module",
   "scripts": {
     "dev": "vite",
