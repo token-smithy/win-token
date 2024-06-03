@@ -8,8 +8,7 @@
 				<!-- <div class="text">pre</div> -->
 			</div>
 			<div class="sentence">"WIN. get extra win in your bags."</div>
-			<div class="mail">
-                <a href= "mailto: contact@win5minch.art"> contact@win5minch.art </a></div>
+			
 			<div class="social-wrapper">
                 <a href="https://t.me/+w0NfKNaz-Z8zMmZk" target="_blank">
                 <button class="social-item" title="Telegram">
@@ -32,6 +31,10 @@
                 <button class="social-item" title="Uniswap">
                     <icon-uniswap></icon-uniswap>
                 </button>
+            </div>
+            <div class="mail">
+                <a href= "mailto: contact@win5minch.art"> contact@win5minch.art 
+                </a>
             </div>
 		</section>
 	</main>
