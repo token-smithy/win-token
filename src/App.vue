@@ -25,16 +25,23 @@
                     <icon-discord></icon-discord>
                    </button>
                 </a>
+                <a href="https://dexscreener.com/base/0x9F636D2ee97E848c7D72312F8b4A067A9ADb1fc3" target="_blank">
                 <button class="social-item" title="Dexscreener">
                     <icon-chart></icon-chart>
                 </button>
+                </a>
+                <a href="https://app.uniswap.org/swap?exactField=input&outputCurrency=0x52ec6aB521D6aDf9D0e616029aF15c2E67478fAD&chain=base" target="_blank">
                 <button class="social-item" title="Uniswap">
                     <icon-uniswap></icon-uniswap>
                 </button>
+                </a>
             </div>
             <div class="mail">
                 <a href= "mailto: contact@win5minch.art"> contact@win5minch.art 
                 </a>
+            </div>
+            <div class="token-address">
+                CA: 0x52ec6aB521D6aDf9D0e616029aF15c2E67478fAD
             </div>
 		</section>
 	</main>
