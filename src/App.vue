@@ -20,7 +20,7 @@
                     <icon-twitter></icon-twitter>
                    </button>
                 </a>
-                <a href="https://discord.gg/Mvg8qfev" target="_blank">
+                <a href="https://discord.gg/wSyWfkN44Z" target="_blank">
                 <button class="social-item" title="Discord">
                     <icon-discord></icon-discord>
                    </button>
